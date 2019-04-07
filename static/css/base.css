@@ -7,7 +7,8 @@
 /******** BUILT-INS ********/
 html, body { height: 100%; margin: 0; padding: 0; }
 p { padding: 0; margin: 10px 0; }
-body { min-height: 100%; font-family: 'Ubuntu'; background-image: url(../images/bg.png); font-size: 13px; }
+/**  body { min-height: 100%; font-family: 'Ubuntu'; background-image: url(../images/bg.png); font-size: 13px; } **/
+body { min-height: 100%; font-family: 'Ubuntu'; background-image: url(../images/bg.png); font-size: 15px; }
 h1, h2, h3, h4 { font-family: 'Holtwood One SC'; margin: 0; padding: 0; display: inline-block; }
 a { color: #F36C00; text-decoration: none; }
 hr { background-color: #ccc; height: 1px; border: 0; }
@@ -47,14 +48,14 @@ nav > ul { list-style-type: none; margin: 0; padding: 0; }
 nav > ul > li { position: relative; transition-property: left; -webkit-transition-property: left; transition-duration: .2s; -webkit-transition-duration: .2s; }
 nav > ul.links > li:hover:not(.active) { left: -10px; }
 nav > ul > li.active { left: -10px; }
-nav > ul > li > a { color: #fff; font-family: 'Holtwood One SC';  font-size: 1.5em; }
+nav > ul > li > a { color: #fff; font-family: 'Holtwood One SC'; }
 nav > ul > li.active { transform: rotate(0) !important; -webkit-transform: rotate(0) !important; }
 nav > ul > li.active > a { color: #000; }
 nav > ul.links > li:nth-child(odd) { transform: rotate(-3deg); -webkit-transform: rotate(-3deg); }
 nav > ul.links > li:nth-child(even) { transform: rotate(3deg); -webkit-transform: rotate(3deg); }
 
 /******* FOOTER ********/
-footer.site { width: 740px; float: right; background-color: #000; margin-top: 50px; color: #fff; padding: 20px; -webkit-transform: rotate(1deg); transform: rotate(1deg); }
+footer.site { width: 100%; float: right; background-color: #000; margin-top: 50px; color: #fff; padding: 20px; -webkit-transform: rotate(1deg); transform: rotate(1deg); }
 footer.site section.lfloat { margin-right: 50px; }
 footer.site ul { list-style-type: none; margin: 0; padding: 0; }
 footer.site ul lh { line-height: 1.5em; } 
