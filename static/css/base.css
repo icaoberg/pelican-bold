@@ -8,7 +8,7 @@
 html, body { height: 100%; margin: 0; padding: 0; }
 p { padding: 0; margin: 10px 0; }
 /**  body { min-height: 100%; font-family: 'Ubuntu'; background-image: url(../images/bg.png); font-size: 13px; } **/
-body { min-height: 100%; font-family: 'Ubuntu'; background-image: url(../images/bg.png); font-size: 15px; }
+body { min-height: 100%; font-family: 'Ubuntu'; background-image: url(../images/bg.png); font-size: 20px; }
 h1, h2, h3, h4 { font-family: 'Holtwood One SC'; margin: 0; padding: 0; display: inline-block; }
 a { color: #F36C00; text-decoration: none; }
 hr { background-color: #ccc; height: 1px; border: 0; }
